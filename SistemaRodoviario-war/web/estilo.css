@@ -1,0 +1,89 @@
+/* 
+    Document   : dropdown
+    Created on : 09/05/2012, 22:27:09
+    Author     : Marcelo
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#navMenu{
+    margin: 0;
+    padding: 0;
+    width: 1000px;
+}
+
+#navMenu ul{
+    margin: 0;
+    padding: 0;
+    line-height: 30px;
+
+}
+
+#navMenu li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: left;
+    position: relative;
+    background: #999;
+}
+#navMenu ul li a{
+    text-align: center;
+    font-family: "Comic Sans MS",cursive;
+    text-decoration:none;
+    height: 30px;
+    width: 198px;
+    display: block;
+    color: #FFF;
+    border: 1px solid #000;
+    text-wrap: 1px 1px 1px #000;
+}
+
+#navMenu ul ul{
+    position: absolute;
+    visibility: hidden;
+    top: 32px;
+}
+
+#navMenu ul li:hover ul{
+    visibility: visible;
+}
+
+
+
+#navMenu li:hover {
+    background: #09F;
+}
+
+#navMenu ul li:hover ul li a:hover{
+    background: #CCC;
+    color:#000;
+}
+#navMenu a:hover{
+    color:#000;
+
+}
+
+
+.clearFloat{
+    clear: both;
+    margin: 0;
+    padding: 0;
+}
+
+
+div.form {
+    position: relative;
+}
+div.campo {
+    float: left;
+}
+
+
+table.bordasimples {
+    border-collapse: collapse;
+    
+}
+table.bordasimples tr td{
+    border:1px solid #FF0000;
+}
